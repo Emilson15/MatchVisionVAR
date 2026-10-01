@@ -1,0 +1,62 @@
+matchvision_var/
+│
+├── data/
+│   ├── escudos/                                   # Base de datos de Ligas y Equipos
+│   │   ├── Bundesliga/                            # Carpeta Liga: Bundesliga
+│   │   │   ├── Bayer Leverkusen/                  # Escudo PNG de Bayer Leverkusen
+│   │   │   ├── Bayern Munich/                     # Escudo WebP de Bayern Munich
+│   │   │   ├── Borussia Dortmund/                 # Escudo WebP de Borussia Dortmund
+│   │   │   └── Bundesliga_logo_(2017).svg.webp    # Logotipo oficial de la Liga
+│   │   │
+│   │   ├── Liga Española/                         # Carpeta Liga: Liga Española (LaLiga)
+│   │   │   ├── Atletico de Madrid/                # Escudo PNG de Atlético de Madrid
+│   │   │   ├── FC Barcelona/                      # Escudo WebP de FC Barcelona
+│   │   │   ├── Real Madrid FC/                    # Escudo PNG de Real Madrid FC
+│   │   │   └── LL_RGB_h_color.png                 # Logotipo oficial de la Liga
+│   │   │
+│   │   ├── Ligue 1/                               # Carpeta Liga: Ligue 1
+│   │   │   ├── AS Monaco/                         # Escudo PNG de AS Mónaco
+│   │   │   ├── Olympique de Marsella/             # Escudo WebP de Marsella
+│   │   │   ├── Paris Saint-Germain (PSG)/         # Escudo PNG de PSG
+│   │   │   └── French-Ligue-1-Logo.png            # Logotipo oficial de la Liga
+│   │   │
+│   │   ├── Premier League/                        # Carpeta Liga: Premier League
+│   │   │   ├── Liverpool/                         # Escudo PNG de Liverpool
+│   │   │   ├── Manchester City/                   # Escudo WebP de Manchester City
+│   │   │   ├── Manchester United/                 # Escudo PNG de Manchester United
+│   │   │   └── EnglishPremierLeague.webp          # Logotipo oficial de la Liga
+│   │   │
+│   │   ├── Serie A/                               # Carpeta Liga: Serie A
+│   │   │   ├── AC Milan/                          # Escudo WebP de AC Milan
+│   │   │   ├── Inter Milan/                       # Escudo WebP de Inter Milan
+│   │   │   ├── Napoli/                            # Escudo PNG de Napoli
+│   │   │   └── i.png                              # Logotipo oficial de la Liga
+│   │   │
+│   │   ├── leagues_db.json                        # Índice JSON autogenerado de ligas y escudos
+│   │   └── dataset_ligas.zip                      # Respaldo original comprimido
+│   │
+│   ├── raw_videos/                                # Videos organizados por partido / equipos
+│   │
+│   └── reportes/                                  # Auditoría y exportaciones del VAR
+│       ├── VAR_Reports.xlsx                       # Hoja Excel con decisiones, minuto y margen SAOT
+│       └── *.mp4                                  # Clips de 10 segundos extraídos por cada jugada
+│
+├── models/
+│   └── yolov8n.pt                                 # Modelo de IA YOLOv8 para detección de jugadores y balón
+│
+├── src/
+│   ├── __init__.py                                # Inicializador del paquete Python
+│   ├── style.py                                   # [PROTEGIDO] Paleta de colores oficial VAR y tokens gráficos
+│   ├── database.py                                # Gestor de escudos, lectura de carpetas y exportador Excel
+│   ├── gui_app.py                                 # GUI multipágina (Selección, Filtro inteligente, Sala VAR y Resumen)
+│   ├── team_classifier.py                         # Clasificador de color de camiseta (HSV y distancia euclídea)
+│   └── rules_engine.py                            # Motor 3D, Homografía, Plano 3D, SAOT, Barrera 9.15m y Radar
+│
+├── app_desktop.py                                 # Lanzador y verificador inicial de directorios
+├── actualizar_instalador.bat                      # DOBLE CLIC PARA ACTUALIZAR EL INSTALADOR AUTOMÁTICAMENTE
+├── actualizar_instalador.py                       # Lógica de recompilación y actualización completa
+├── build_exe.py                                   # Script de compilación a ejecutable
+├── MatchVision_VAR.spec                           # Especificación PyInstaller
+├── installer_setup.iss                            # Script fuente de Inno Setup
+├── Estructura.txt                                 # Documentación técnica de la estructura
+└── requirements.txt                               # Dependencias del entorno virtual

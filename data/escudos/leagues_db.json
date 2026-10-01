@@ -1,0 +1,42 @@
+{
+  "Bundesliga": {
+    "teams": {
+      "Bayer Leverkusen": "C:\\Users\\DELL\\OneDrive\\Desktop\\Mis proyectos\\Deep Learning\\matchvision_var\\data\\escudos\\Bundesliga\\Bayer Leverkusen\\Bayer_04_Leverkusen_logo.png",
+      "Bayern Munich": "C:\\Users\\DELL\\OneDrive\\Desktop\\Mis proyectos\\Deep Learning\\matchvision_var\\data\\escudos\\Bundesliga\\Bayern Munich\\FC_Bayern_München_logo_(2024).svg.webp",
+      "Borussia Dortmund": "C:\\Users\\DELL\\OneDrive\\Desktop\\Mis proyectos\\Deep Learning\\matchvision_var\\data\\escudos\\Bundesliga\\Borussia Dortmund\\Borussia_Dortmund_logo.svg.webp"
+    },
+    "logo": "C:\\Users\\DELL\\OneDrive\\Desktop\\Mis proyectos\\Deep Learning\\matchvision_var\\data\\escudos\\Bundesliga\\Bundesliga_logo_(2017).svg.webp"
+  },
+  "LaLiga": {
+    "teams": {
+      "Atletico de Madrid": "C:\\Users\\DELL\\OneDrive\\Desktop\\Mis proyectos\\Deep Learning\\matchvision_var\\data\\escudos\\LaLiga\\Atletico de Madrid\\1068.png",
+      "FC Barcelona": "C:\\Users\\DELL\\OneDrive\\Desktop\\Mis proyectos\\Deep Learning\\matchvision_var\\data\\escudos\\LaLiga\\FC Barcelona\\FCB.svg.webp",
+      "Real Madrid FC": "C:\\Users\\DELL\\OneDrive\\Desktop\\Mis proyectos\\Deep Learning\\matchvision_var\\data\\escudos\\LaLiga\\Real Madrid FC\\images.png"
+    },
+    "logo": "C:\\Users\\DELL\\OneDrive\\Desktop\\Mis proyectos\\Deep Learning\\matchvision_var\\data\\escudos\\LaLiga\\LL_RGB_h_color.png"
+  },
+  "Ligue 1": {
+    "teams": {
+      "AS Monaco": "C:\\Users\\DELL\\OneDrive\\Desktop\\Mis proyectos\\Deep Learning\\matchvision_var\\data\\escudos\\Ligue 1\\AS Monaco\\174.png",
+      "Olympique de Marsella": "C:\\Users\\DELL\\OneDrive\\Desktop\\Mis proyectos\\Deep Learning\\matchvision_var\\data\\escudos\\Ligue 1\\Olympique de Marsella\\Olympique_de_Marseille_2026_logo.svg.webp",
+      "Paris Saint-Germain (PSG)": "C:\\Users\\DELL\\OneDrive\\Desktop\\Mis proyectos\\Deep Learning\\matchvision_var\\data\\escudos\\Ligue 1\\Paris Saint-Germain (PSG)\\psg_crest.png"
+    },
+    "logo": "C:\\Users\\DELL\\OneDrive\\Desktop\\Mis proyectos\\Deep Learning\\matchvision_var\\data\\escudos\\Ligue 1\\French-Ligue-1-Logo.png"
+  },
+  "Premier League": {
+    "teams": {
+      "Liverpool": "C:\\Users\\DELL\\OneDrive\\Desktop\\Mis proyectos\\Deep Learning\\matchvision_var\\data\\escudos\\Premier League\\Liverpool\\85_imgbank_1769074820.png",
+      "Manchester City": "C:\\Users\\DELL\\OneDrive\\Desktop\\Mis proyectos\\Deep Learning\\matchvision_var\\data\\escudos\\Premier League\\Manchester City\\Manchester-City-Feature-Image.png.webp",
+      "Manchester United": "C:\\Users\\DELL\\OneDrive\\Desktop\\Mis proyectos\\Deep Learning\\matchvision_var\\data\\escudos\\Premier League\\Manchester United\\manchesterunited.png"
+    },
+    "logo": "C:\\Users\\DELL\\OneDrive\\Desktop\\Mis proyectos\\Deep Learning\\matchvision_var\\data\\escudos\\Premier League\\EnglishPremierLeague.webp"
+  },
+  "Serie A": {
+    "teams": {
+      "AC Milan": "C:\\Users\\DELL\\OneDrive\\Desktop\\Mis proyectos\\Deep Learning\\matchvision_var\\data\\escudos\\Serie A\\AC Milan\\Logo_of_AC_Milan.svg.webp",
+      "Inter Milan": "C:\\Users\\DELL\\OneDrive\\Desktop\\Mis proyectos\\Deep Learning\\matchvision_var\\data\\escudos\\Serie A\\Inter Milan\\FC_Internazionale_Milano_2021.svg.webp",
+      "Napoli": "C:\\Users\\DELL\\OneDrive\\Desktop\\Mis proyectos\\Deep Learning\\matchvision_var\\data\\escudos\\Serie A\\Napoli\\Napoli-Logo.png"
+    },
+    "logo": "C:\\Users\\DELL\\OneDrive\\Desktop\\Mis proyectos\\Deep Learning\\matchvision_var\\data\\escudos\\Serie A\\i.png"
+  }
+}
