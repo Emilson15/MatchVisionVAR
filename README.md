@@ -2,7 +2,7 @@
 
 <div align="center">
  
-  <img width="333" height="334" alt="logo" src="https://github.com/user-attachments/assets/75f9fb26-6cb5-4724-8132-b5aaf71e6f59" />
+ <img width="333" height="334" alt="logo" src="https://github.com/user-attachments/assets/d668e9c8-8578-4b09-bc1f-af64803b2ea5" />
 
   <p align="center">
     <strong>Sistema avanzado de escritorio para el análisis táctico, corrección de perspectiva y proyección de líneas 3D en videos de fútbol.</strong>
