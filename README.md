@@ -72,6 +72,7 @@ Si solo quieres usar el programa sin tocar el código:
 1. Ve al enlace **(https://drive.google.com/file/d/1H2L2hA5Se64MJ8ZvL6v5qR0Kh0qQiajl/view?usp=drive_link)**  
 2. Descarga el archivo instalador más reciente (`.exe`).
 3. (Opcional): Si estás en el repositorio local y tienes el código, simplemente haz doble clic en `actualizar_instalador.bat` para regenerar el instalador automáticamente.
+4. Para añadir las ligas y equipos, descargas el archivo .zip que esta en este enlace **https://drive.google.com/drive/folders/1NX3Ccf23Cz-oPivB1rP7WjG8OUaYstn1?usp=drive_link**
 
 ---
 
